@@ -1,0 +1,32 @@
+
+.hidden{
+    opacity: 0;
+}
+
+.hidden.show{
+    opacity: 1;
+    transition: 1s;
+}
+.fromBottom{
+    transform: translateY(50%);
+}
+.fromLeft{
+    transform: translateX(-50%);
+
+}
+.fromLeft.show{
+    transform: translateX(0);
+    
+}
+.fromRight{
+    transform: translateX(50%);
+
+}
+.fromRight.show{
+    transform: translateX(0);
+    
+}
+.fromBottom.show{
+    transform: translateY(0);
+
+}

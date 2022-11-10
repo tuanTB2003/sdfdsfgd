@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+}
+
+.form_shadow{
+    box-shadow: -20px -20px 60px #fff,
+    20px 20px 60px #ccc
+    ;
+}
+.form_login{
+    max-width: 450px;
+    width: 100%;
+}
+.f-13{
+    font-size:13px;
+}
+.background_success{
+    background-color:rgba(13, 182, 41, 0.192);
+
+}
+.text_success{
+    color:rgba(33, 146, 10, 0.747);
+}
+.w-full{
+    width: 100%;
+}
+.err{
+    font-size:12px;
+    font-style: italic;
+    color:red;
+}

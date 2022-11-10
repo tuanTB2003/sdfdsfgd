@@ -1,0 +1,49 @@
+.banner_product{
+    background: url('../../access/img/banner/b1.jpg') top center / cover no-repeat;
+    padding-top:20%;
+}
+.sidebar-nav{
+    max-width: 330px;
+}
+.img_detail{
+    width: 100%;
+}
+.img_cart{
+    max-width:100px;
+    object-fit: cover;
+}
+.input_quantity{
+    max-width: 50px;
+    padding: 5px;
+}
+.nameProduct{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 230px;
+    overflow: hidden;
+    font-size:23px ;
+}
+
+.cart:hover{
+    box-shadow: 0 0 8px 3px #ccc;
+    transform: scale(1.02);
+    transition: ease-in 0.3s ;
+}
+
+.avatar-img{
+    max-width:120px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.m-left{
+    margin-left:50px;
+}
+.form_reply{
+    display: none;
+}
+.form_reply.action{
+    display: block;
+}
+.reply{
+    cursor: pointer;
+}
